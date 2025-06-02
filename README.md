@@ -25,7 +25,8 @@ Try it live here: [https://okukubrianokoth.github.io/Joke-Generator/](https://ok
 
    ```bash
    git clone https://github.com/okukubrianokoth/Joke-Generator.git
-##Technologies Used
+##Technologies Used##
+
 HTML5 — For the basic webpage structure
 
 CSS3 — For styling and layout
