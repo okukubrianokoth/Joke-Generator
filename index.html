@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Generator</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+ <div class="wrapper">
+    <div class="box">
+      <h1>Joke Generator</h1>
+      <p class="description">
+        The Joke Generator is a beginner-friendly web application designed to entertain users by delivering random, witty jokes at the click of a button. It connects to the icanhazdadjoke API, a public RESTful service that provides a collection of family-friendly “dad jokes.” This project was built using only HTML for structure, CSS for styling, and JavaScript to handle the logic and API interaction. It demonstrates how simple front-end technologies can be used to fetch and display real-time data from external sources. Whether you're learning how APIs work or just in need of a quick laugh, this small app is a fun and practical way to understand the power of JavaScript and asynchronous programming in a real-world scenario.
+      </p>
+      <div class="button-group">
+  <button onclick="showPrevious()">Previous</button>
+  <button onclick="getJoke()">Next Joke</button>
+</div>
+
+<p id="joke">Click the button to get a joke!</p>
+
+    </div>
+
+    <footer class="footer">
+      <p>&copy; 2025 Joke Generator. Built by Okuku Brian Okoth.</p>
+    </footer>
+  </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
